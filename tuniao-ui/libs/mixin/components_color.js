@@ -1,7 +1,4 @@
-module.exports = {
-  data() {
-    
-  },
+module.exports = { 
   props: {
     // 背景颜色
     backgroundColor: {

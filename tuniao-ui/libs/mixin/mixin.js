@@ -1,7 +1,4 @@
-module.exports = {
-  data() {
-    return {}
-  },
+module.exports = { 
   onLoad() {
     // getRect挂载再$t上，用为这个方法需要使用in（this），所以无法把它独立层一个单独的文件导出
     this.$tn.getRect = this._tGetRect
